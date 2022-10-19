@@ -1,6 +1,6 @@
 <?php
 
-$i = 0;
+$i = -1;
 $a = 0;
 $c =0;
 $u =0;
@@ -20,7 +20,7 @@ while($i<count($sehirler)-1){
 }
 echo "<br />";
 
-for($b=0; $b<count($sehirler)-1; $b++)
+for($b=-1; $b<count($sehirler)-1; $b++)
 {
 	print_r($sehirler[$c]);
 	echo "<br />";
@@ -39,7 +39,7 @@ foreach($sehirler as $ss){
 	
 	echo $ss."<br />";
 	
-}
+}	
 echo "<br />";
 
 for($f = 0;$f<count($sehirler)-1; $f++){
